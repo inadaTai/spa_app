@@ -8,6 +8,9 @@ Vue.use(VueTyperPlugin)
 Vue.config.productionTip = false
 import VueParticles from 'vue-particles'
 Vue.use(VueParticles)
+import smoothScroll from 'vue-smoothscroll'
+Vue.use(smoothScroll)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

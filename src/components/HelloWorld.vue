@@ -28,6 +28,10 @@
     <h1>{{ msg }}</h1>
   </div>
 </template>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
+          <p class="comment">Top</p>
+        </a>
+</template>
 
 <script>
 export default {
