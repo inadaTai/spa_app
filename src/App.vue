@@ -1,7 +1,21 @@
 <template>
-  <div id="app">
+    <div id="app">
     <router-view/>
-  </div>
+    
+    <Header id="header"></Header>
+
+    <div class="nav-res">
+        <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
+          <p class="comment">Top</p>
+        </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#about')">
+          <p class="comment">About</p>
+        </a>
+    </div>
+    <About id="about"></About>
+
+    <Footer></Footer>
+    </div>
 </template>
 
 <script>

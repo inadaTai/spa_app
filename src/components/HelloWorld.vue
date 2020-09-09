@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-      <vue-particles
+    <vue-particles
       class="particles"
       color="#dedede"
       :particleOpacity="0.7"
@@ -20,17 +20,13 @@
     >
     </vue-particles>
   
-  <div class="site-top">
-  <vue-typer :text="['こんにちは、ようこそ！！ \nこのサイトでは私の趣味的な話題に触れつつ書いていきます。 \n\n\n\n↓\n']" 
-    class="top-text" :repeat='0' :preTypeDelay="1000" :typeDelay="120" :preEraseDelay="5000" :eraseDelay="2000">
-  </vue-typer>
+  <div class="site-top" id="top">
+    <vue-typer :text="['こんにちは、ようこそ！！ \nこのサイトでは私の趣味的な話題に触れつつ書いていきます。 \n\n\n\n↓\n']" 
+      class="top-text" :repeat='0' :preTypeDelay="1000" :typeDelay="120" :preEraseDelay="5000" :eraseDelay="2000">
+    </vue-typer>
   </div>
     <h1>{{ msg }}</h1>
   </div>
-</template>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
-          <p class="comment">Top</p>
-        </a>
 </template>
 
 <script>
@@ -44,7 +40,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
   font-weight: normal;

@@ -16,5 +16,21 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  data: {
+    // 使用するデータ
+  },
+  methods: {
+    // 使用するメソッド
+    clickSmoothScroll (x) {
+      event.preventDefault()
+      this.$SmoothScroll(
+        document.querySelector(x),
+        800,
+        null,
+        null,
+        'y'
+      )
+    }
+  }
 })
