@@ -20,17 +20,4 @@ new Vue({
   data: {
     // 使用するデータ
   },
-  methods: {
-    // 使用するメソッド
-    clickSmoothScroll (x) {
-      event.preventDefault()
-      this.$SmoothScroll(
-        document.querySelector(x),
-        800,
-        null,
-        null,
-        'y'
-      )
-    }
-  }
 })
