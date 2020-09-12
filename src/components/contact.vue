@@ -4,7 +4,7 @@
       <div class="contact">
         下記にご連絡をいただけますと幸いです。
         email
-        t.inada0511@gmail.com
+        
       </div>
   </div>
 </template>
