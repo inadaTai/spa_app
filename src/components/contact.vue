@@ -3,7 +3,8 @@
     <h1 class="contact-title">Contact</h1>
       <div class="contact">
         下記にご連絡をいただけますと幸いです。
-        Wantedly
+        email
+        t.inada0511@gmail.com
       </div>
   </div>
 </template>

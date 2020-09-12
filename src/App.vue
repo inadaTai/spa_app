@@ -31,18 +31,26 @@
         <a href="#" class="link-content" @click="clickSmoothScroll('#about')">
           <p class="comment">About</p>
         </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#skill')">
+          <p class="comment">Skill</p>
+        </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#Contact')">
+          <p class="comment">Contact</p>
+        </a>
     </div>
 
     <About id="about"></About>
+    <Skill id="skill"></Skill>
     <Contact id="contact"></Contact>
 
-    <Footer></Footer>
+    <FooterComp id="footer"></FooterComp>
     </div>
 </template>
 
 <script>
 import About from './components/About.vue'
 import Contact from './components/Contact.vue'
+import Skill from './components/Skill.vue'
 import HeadComp from './components/HeadComp.vue'
 import FooterComp from './components/FooterComp.vue'
 
@@ -51,6 +59,7 @@ export default {
   name: 'App',
   components: {
     About,
+    Skill,
     Contact,
     HeadComp,
     FooterComp
