@@ -3,13 +3,13 @@
     <h1 class="about_title">About</h1>
       <div class="about">
         このページにて、私の活動内容は下記となります。
-        ポートフォリオ(※クリックすると切り替わります。)
+        ポートフォリオ(※クリックすると画像が切り替わります。)
         <div id="aboutsection">
            <img :src="imageSrc" v-on:click="changeImg()"> 
         </div>
       <div class="portfolio_link">
-        <a href="https://wsa-sns-app.herokuapp.com/">PC版URL</a>
-        <a href="https://play.google.com/store/apps/details?id=com.wsa.what_service">スマホアプリ版URL</a>
+        <a href="https://wsa-sns-app.herokuapp.com/">PC版はこちら</a>
+        <a href="https://play.google.com/store/apps/details?id=com.wsa.what_service">スマホアプリ版（ストアURL）</a>
       </div>
       </div>
   </div>
@@ -20,12 +20,13 @@ export default {
   name: 'About',
     data () {
       return {
-        imageSrc: require("@/assets/logo.png")
+        imageSrc: require("@/assets/sitetop.png")
       }
     },
   methods: {
     changeImg () {
-      this.imageSrc = require("@/assets/logo.png")
+      if(this.imageSrc == require("@/assets/kizi.png")) return this.imageSrc = require("@/assets/sitetop.png");
+      this.imageSrc = require("@/assets/kizi.png")
     }
   }
 }

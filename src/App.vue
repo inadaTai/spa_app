@@ -23,22 +23,6 @@
     <router-view/>
 
     <Header id="header"></Header>
-
-    <div class="nav-res">
-        <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
-          <p class="comment">Top</p>
-        </a>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#about')">
-          <p class="comment">About</p>
-        </a>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#skill')">
-          <p class="comment">Skill</p>
-        </a>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#Contact')">
-          <p class="comment">Contact</p>
-        </a>
-    </div>
-
     <About id="about"></About>
     <Skill id="skill"></Skill>
     <Contact id="contact"></Contact>
