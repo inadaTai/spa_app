@@ -15,5 +15,7 @@
 
 
 <style>
-
+.contact{
+  white-space: pre-line;
+}
 </style>

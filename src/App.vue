@@ -20,6 +20,25 @@
       clickMode="push"
     >
     </vue-particles>
+    <div class="nav-res">
+      <div class="title-name"><vue-typer :text="['Yama_soft\n']" 
+        class="top-text" :repeat='0' :preTypeDelay="1000" :typeDelay="120" :preEraseDelay="5000" :eraseDelay="2000">
+      </vue-typer></div>
+      <div class="right-menu">
+        <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
+          <p class="comment">Top</p>
+        </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#about')">
+          <p class="comment">About</p>
+        </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#skill')">
+          <p class="comment">Skill</p>
+        </a>
+        <a href="#" class="link-content" @click="clickSmoothScroll('#Contact')">
+          <p class="comment">Contact</p>
+        </a>
+        </div>
+    </div>
     <router-view/>
 
     <Header id="header"></Header>
@@ -70,7 +89,27 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+/*ヘッダー*/
+.title-name{
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+}
+.nav-res{ 
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+}
+.comment {
+  padding-left: 15px;
+  font-size: 20px;
+}
+.right-menu{
+  display: flex;
+  margin-right: 60px;
 }
 
 /*パーティクルの背景CSS*/
