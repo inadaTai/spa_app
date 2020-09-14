@@ -1,12 +1,13 @@
 <template>
   <div>
-    <h1 class="about_title">About</h1>
+    <h1 class="about_title"><font-awesome-icon icon="coffee" />About</h1>
       <div class="about">
         このページにて、私の活動内容は下記となります。
         ポートフォリオ(※クリックすると画像が切り替わります。)
         <div id="aboutsection">
            <img :src="imageSrc" v-on:click="changeImg()"> 
         </div>
+        <p class="portfolio_name">サイト名：what_service_app</p>
       <div class="portfolio_link">
         <a href="https://wsa-sns-app.herokuapp.com/">PC版はこちら</a>
         <a href="https://play.google.com/store/apps/details?id=com.wsa.what_service">スマホアプリ版（ストアURL）</a>
@@ -35,5 +36,9 @@ export default {
 <style>
 .about{
   white-space: pre-line;
+}
+.portfolio_name{
+  font-weight: bold;
+  font-size: 20px;
 }
 </style>

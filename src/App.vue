@@ -34,7 +34,7 @@
         <a href="#" class="link-content" @click="clickSmoothScroll('#skill')">
           <p class="comment">Skill</p>
         </a>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#Contact')">
+        <a href="#" class="link-content" @click="clickSmoothScroll('#contact')">
           <p class="comment">Contact</p>
         </a>
         </div>
@@ -83,6 +83,7 @@ export default {
 </script>
 
 <style>
+/*共通部分*/
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -90,22 +91,28 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
+body{
+  margin: auto;
+}
 /*ヘッダー*/
 .title-name{
   display: flex;
   font-size: 40px;
   font-weight: bold;
+  padding-left: 10px;
 }
 .nav-res{ 
   width: 100%;
   justify-content: space-between;
   display: flex;
   position: fixed;
+  background-color: blanchedalmond;
 }
 .comment {
-  padding-left: 15px;
+  padding-left: 25px;
   font-size: 20px;
+  color: deeppink;
+  font-weight: bold;
 }
 .right-menu{
   display: flex;

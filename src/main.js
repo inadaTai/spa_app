@@ -10,6 +10,11 @@ import VueParticles from 'vue-particles'
 Vue.use(VueParticles)
 import smoothScroll from 'vue-smoothscroll'
 Vue.use(smoothScroll)
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCoffee, faSpinner, faHandshake, faMailBulk ,faFileCode} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+library.add(faCoffee, faSpinner, faHandshake, faMailBulk, faFileCode)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 /* eslint-disable no-new */
 new Vue({
