@@ -5,4 +5,9 @@
 </template>
 
 <style>
+.footer{
+  background-color: blanchedalmond;
+  padding: 5px;
+  font-weight: bold;
+}
 </style>

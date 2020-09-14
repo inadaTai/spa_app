@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="about-section">
     <h1 class="about_title"><font-awesome-icon icon="coffee" />About</h1>
       <div class="about">
         このページにて、私の活動内容は下記となります。
-        ポートフォリオ(※クリックすると画像が切り替わります。)
-        <div id="aboutsection">
+        ポートフォリオ(※画像をクリックすると切り替わります。)
+        <div id="aboutimg">
            <img :src="imageSrc" v-on:click="changeImg()"> 
         </div>
         <p class="portfolio_name">サイト名：what_service_app</p>
@@ -34,6 +34,10 @@ export default {
 </script>
 
 <style>
+.about-section{
+  background-color: floralwhite;
+  padding: 30px;
+}
 .about{
   white-space: pre-line;
 }
