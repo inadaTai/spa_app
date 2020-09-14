@@ -14,7 +14,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: '下記が実績'
+      msg: ''
     }
   }
 }

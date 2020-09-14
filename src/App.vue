@@ -97,9 +97,28 @@ body{
 /*ヘッダー*/
 .title-name{
   display: flex;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   padding-left: 10px;
+  color: deeppink;
+}
+.vue-typer {
+  font-family: monospace;
+}
+
+.vue-typer .custom.char:first-child {
+  color: deeppink;
+  background-color: #1E1E1E;
+  padding: 5px;
+  font-size: 40px;
+}
+.vue-typer .custom.char.selected {
+  background-color: white;
+}
+
+.vue-typer .custom.caret {
+  width: 10px;
+  background-color: white;
 }
 .nav-res{ 
   width: 100%;
@@ -116,7 +135,7 @@ body{
 }
 .right-menu{
   display: flex;
-  margin-right: 60px;
+  margin-right: 160px;
 }
 
 /*パーティクルの背景CSS*/
