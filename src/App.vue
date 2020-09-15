@@ -97,8 +97,7 @@ body{
 /*ヘッダー*/
 .title-name{
   display: flex;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 33px;
   padding-left: 10px;
   color: deeppink;
 }
@@ -106,9 +105,11 @@ body{
   font-family: monospace;
 }
 
+.vue-typer .custom.char{
+  font-style: italic;
+}
 .vue-typer .custom.char:first-child {
   color: deeppink;
-  background-color: #1E1E1E;
   padding: 5px;
   font-size: 40px;
 }
@@ -136,6 +137,7 @@ body{
 .right-menu{
   display: flex;
   margin-right: 160px;
+  font-style: italic;
 }
 
 /*パーティクルの背景CSS*/

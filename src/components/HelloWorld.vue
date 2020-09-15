@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
   <div class="site-top" id="top">
-    <vue-typer :text="['\n\n\nようこそ！！\nこのサイトでは私の作成したものや \nスキルについて書いていきます。 \n\n\n\n↓\n']" 
+    <vue-typer :text="['\n\n\nようこそ\nこのサイトでは私の作成したものや \nスキルについて書いていきます。 \n\n\n\n\n']" 
       class="top-text" :repeat='0' :preTypeDelay="1000" :typeDelay="120" :preEraseDelay="5000" :eraseDelay="2000">
     </vue-typer>
   </div>
