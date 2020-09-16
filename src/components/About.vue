@@ -17,17 +17,20 @@
           <div class="portfolio-link">
             <a href="https://wsa-sns-app.herokuapp.com/">PC版はこちら</a>
             <a href="https://play.google.com/store/apps/details?id=com.wsa.what_service">スマホアプリ版（ストアURL）</a>
+          </div>
+        </div>
+        <div id="aboutimg2">
+          <img :src="imageSrc" v-on:click="changeImg()"> 
+          <p class="portfolio-name">サイト名：Yama_soft</p>
           <div class="portfolio-discription">説明
             このサイトは私作成したものを載せているサイトでVue.jsに対する知見が深まったこと
             また、ライブラリを使用したり自分でjavascriptの動きを考えつつ実装する点では勉強になり
             BaasのサービスFirebaseにてデプロイしてみたりなど独学で触ったことない便利なサービスを
             実際に使うことにより様々なサービスに対する知見が広がったと思っています。
           </div>
+          <div class="portfolio-link">
+            <a href="https://wsa-sns-app.herokuapp.com/">PC版はこちら</a>
           </div>
-        </div>
-        <div id="aboutimg2">
-          <img :src="imageSrc" v-on:click="changeImg()"> 
-          <p class="portfolio_name">サイト名：Yama_soft</p>
         </div>
       </div>
   </div>
@@ -65,10 +68,10 @@ export default {
   font-weight: bold;
 }
 #aboutimg{
-  padding: 0px 150px;
+  padding: 10px 150px;
 }
 #aboutimg2{
-  padding: 0px 150px;
+  padding: 10px 150px;
 }
 .portfolio-name{
   font-weight: bold;
