@@ -20,7 +20,7 @@
           </div>
         </div>
         <div id="aboutimg2">
-          <img :src="imageSrc" v-on:click="changeImg()"> 
+          <img :src="imageSrc2" v-on:click="changeImg2()"> 
           <p class="portfolio-name">サイト名：Yama_soft</p>
           <div class="portfolio-discription">説明
             このサイトは私作成したものを載せているサイトでVue.jsに対する知見が深まったこと
@@ -41,13 +41,18 @@ export default {
   name: 'About',
     data () {
       return {
-        imageSrc: require("@/assets/sitetop.png")
+        imageSrc: require("@/assets/sitetop.png"),
+        imageSrc2: require("@/assets/yamasoft.png")
       }
     },
   methods: {
     changeImg () {
       if(this.imageSrc == require("@/assets/kizi.png")) return this.imageSrc = require("@/assets/sitetop.png");
       this.imageSrc = require("@/assets/kizi.png")
+    },
+    changeImg2 () {
+      if(this.imageSrc2 == require("@/assets/yamasoft2.png")) return this.imageSrc2 = require("@/assets/yamasoft.png");
+      this.imageSrc2 = require("@/assets/yamasoft2.png")
     }
   }
 }
@@ -62,16 +67,22 @@ export default {
   white-space: pre-line;
   display: flex;
 }
+@media (max-width: 1200px) {
+  .about{
+  white-space: pre-line;
+  display: block;
+  }
+}
 .about-discription{
   text-align: center;
   white-space: pre-line;
   font-weight: bold;
 }
 #aboutimg{
-  padding: 10px 150px;
+  padding: 10px 100px;
 }
 #aboutimg2{
-  padding: 10px 150px;
+  padding: 10px 100px;
 }
 .portfolio-name{
   font-weight: bold;
