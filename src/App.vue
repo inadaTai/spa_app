@@ -110,7 +110,17 @@ body{
   font-weight: bold;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 630px) {
+.title-name{
+  display: flex;
+  font-size: 18px;
+  padding-left: 10px;
+  color: deeppink;
+  font-weight: bold;
+  padding-right: 20px;
+  }
+}
+@media (max-width: 450px) {
 .title-name{
   display: flex;
   font-size: 15px;
@@ -139,7 +149,14 @@ body{
     font-size: 30px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 630px) {
+  .vue-typer .custom.char:first-child {
+    color: deeppink;
+    padding: 5px;
+    font-size: 25px;
+  }
+}
+@media (max-width: 450px) {
   .vue-typer .custom.char:first-child {
     color: deeppink;
     padding: 5px;
@@ -170,6 +187,19 @@ body{
   display: flex;
   margin-right: 160px;
   font-style: italic;
+}
+@media (max-width: 650px) {
+  .right-menu{
+    display: flex;
+    margin-right: auto;
+    font-style: italic;
+  }
+  .comment {
+    padding-left: 8px;
+    font-size: 17px;
+    color: deeppink;
+    font-weight: bold;
+  }
 }
 @media (max-width: 400px) {
   .right-menu{
