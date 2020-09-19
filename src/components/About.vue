@@ -7,12 +7,10 @@
         <div id="aboutimg">
           <img :src="imageSrc" v-on:click="changeImg()"> 
           <p class="portfolio-name">サイト名：what_service_app</p>
-          <div class="portfolio-discription">説明
+          <div class="portfolio-discription">【説明】
             このサイトはユーザー間にてサービスの話題共有を目的としたサイトです。
-            何故このサービス共有なのか？という点ですが、サービスを受けた人の話題を
-            1つに集約できる様なサイトを目指しています。
-            人によって評価はそれぞれです、回答サンプルがあればあるほど良いサービスなのか
-            見極める一つの材料になり得ると思っております。
+            何故このサービス共有なのか？という点ですが、サービスを受けた人の話題を1つに集約できる様なサイトを目指しています。
+            人によって評価はそれぞれです、しかし回答サンプルがあればあるほどそのサービスは良いサービスなのか見極める一つの材料になり得ると思っております。
           </div>
           <div class="portfolio-link">
             <a href="https://wsa-sns-app.herokuapp.com/">PC版はこちら</a>
@@ -22,11 +20,9 @@
         <div id="aboutimg2">
           <img :src="imageSrc2" v-on:click="changeImg2()"> 
           <p class="portfolio-name">サイト名：Yama_soft</p>
-          <div class="portfolio-discription">説明
-            このサイトは私作成したものを載せているサイトでVue.jsに対する知見が深まったこと
-            また、ライブラリを使用したり自分でjavascriptの動きを考えつつ実装する点では勉強になり
-            BaasのサービスFirebaseにてデプロイしてみたりなど独学で触ったことない便利なサービスを
-            実際に使うことにより様々なサービスに対する知見が広がったと思っています。
+          <div class="portfolio-discription">【説明】
+            このサイトは私作成したものを載せているを紹介するサイトで作成している中でVue.jsに対する知見が深まったと感じております。
+            また、ライブラリを使用、自分でjavascriptの動きを考えつつ実装する点ではJavascriptの勉強になり、BaasのサービスFirebaseにてデプロイしてみたりなど独学で触ったことない便利なサービスを実際に使い積極的に使ったことないものを導入していきました。
           </div>
           <div class="portfolio-link">
             <a href="https://wsa-sns-app.herokuapp.com/">PC版はこちら</a>
@@ -84,8 +80,26 @@ export default {
 #aboutimg2{
   padding: 10px 100px;
 }
+@media (max-width: 400px) {
+  #aboutimg{
+    padding: 10px 10px;
+  }
+  #aboutimg2{
+    padding: 10px 10px;
+  }
+}
 .portfolio-name{
   font-weight: bold;
   font-size: 20px;
+}
+.portfolio-discription{
+  text-align: left;
+  padding-bottom: 10px;
+}
+@media (max-width: 650px){
+  img{
+    width: 300px;
+    height: 200px;
+  }
 }
 </style>

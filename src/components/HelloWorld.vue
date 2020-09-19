@@ -39,4 +39,9 @@ a {
 div.site-top {
   font-size: 30px;
 }
+@media (max-width: 650px) {
+  div.site-top {
+    font-size: 23px;
+  }
+}
 </style>
