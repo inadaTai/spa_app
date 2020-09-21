@@ -49,10 +49,6 @@
           </svg>
         </p>
       </div>
-      <div class="skill-discription">
-      ※ポートフォリオではフレームワークRailsを使用しており開発環境はDockerを使用しコンテナ開発環境やCircle.ciを利用しpush時にテストを走らせるなどモダンな開発環境を採用しました。
-      また、このサイトではVue.jsを使用しサイトを作成しFirebaseにてデプロイしています。
-      </div>
   </div>
 </template>
 
@@ -92,11 +88,4 @@ svg{
   width: 100px;
   height: 100px;
 }
-.skill-discription{
-  font-weight: bold;
-  font-size: 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
 </style>

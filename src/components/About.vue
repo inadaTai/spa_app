@@ -11,10 +11,11 @@
             このサイトはユーザー間にてサービスの話題共有を目的としたサイトです。
             何故このサービス共有なのか？という点ですが、サービスを受けた人の話題を1つに集約できる様なサイトを目指しています。
             人によって評価はそれぞれです、しかし回答サンプルがあればあるほどそのサービスは良いサービスなのか見極める一つの材料になり得ると思っております。
+            ※このポートフォリオではフレームワークRailsを使用しており開発環境はDockerを使用しコンテナ開発環境やCircle.ciを利用しpush時にテストを走らせるなどモダンな開発環境を採用しました。
           </div>
           <div class="portfolio-link">
-            <a href="https://wsa-sns-app.herokuapp.com/">PC版はこちら</a>
-            <a href="https://play.google.com/store/apps/details?id=com.wsa.what_service">スマホアプリ版（ストアURL）</a>
+            <a href="https://wsa-sns-app.herokuapp.com/">● PC版はこちら</a>
+            <a href="https://play.google.com/store/apps/details?id=com.wsa.what_service">● スマホアプリ版（ストアURL）</a>
           </div>
         </div>
         <div id="aboutimg2">
@@ -22,10 +23,10 @@
           <p class="portfolio-name">サイト名：Yama_soft</p>
           <div class="portfolio-discription">【説明】
             このサイトは私作成したものを載せているを紹介するサイトで作成している中でVue.jsに対する知見が深まったと感じております。
-            また、ライブラリを使用、自分でjavascriptの動きを考えつつ実装する点ではJavascriptの勉強になり、BaasのサービスFirebaseにてデプロイしてみたりなど独学で触ったことない便利なサービスを実際に使い積極的に使ったことないものを導入していきました。
+            また、Vue.jsに対するライブラリを使用することや自分で動きを考えつつメソッドを使用し実装する点ではJavascriptの勉強になり、BaasのサービスFirebaseにてデプロイしてみたりなど独学で触ったことない便利なサービスを実際に使い積極的に使ったことないもの利用し導入していきました。
           </div>
           <div class="portfolio-link">
-            <a href="https://wsa-sns-app.herokuapp.com/">PC版はこちら</a>
+            <a href="https://spaapp-62724.web.app/#/">● PC版はこちら</a>
           </div>
         </div>
       </div>
