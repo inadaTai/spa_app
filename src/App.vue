@@ -37,7 +37,7 @@
         <a href="#" class="link-content" @click="clickSmoothScroll('#contact')">
           <p class="comment">Contact</p>
         </a>
-        </div>
+      </div>
     </div>
     <router-view/>
 
@@ -54,6 +54,7 @@
 import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Skill from './components/Skill.vue'
+import Game from './components/Game.vue'
 import HeadComp from './components/HeadComp.vue'
 import FooterComp from './components/FooterComp.vue'
 
@@ -65,7 +66,8 @@ export default {
     Skill,
     Contact,
     HeadComp,
-    FooterComp
+    FooterComp,
+    Game
   },
   methods:{
     clickSmoothScroll (x) {
