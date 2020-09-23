@@ -1,6 +1,6 @@
 <template>
   <div class="about-section">
-    <h1 class="about_title"><font-awesome-icon icon="coffee" style="padding-right: 10px" />About</h1>
+    <h1 class="about-title"><font-awesome-icon icon="coffee" style="padding-right: 10px" />About</h1>
         <p class="about-discription">このページにて、私の活動内容は下記となります。
         ポートフォリオ(※画像をクリックすると切り替わります。)</p>
       <div class="about">

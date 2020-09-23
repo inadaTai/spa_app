@@ -54,7 +54,6 @@
 import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Skill from './components/Skill.vue'
-import Game from './components/Game.vue'
 import HeadComp from './components/HeadComp.vue'
 import FooterComp from './components/FooterComp.vue'
 
@@ -66,8 +65,7 @@ export default {
     Skill,
     Contact,
     HeadComp,
-    FooterComp,
-    Game
+    FooterComp
   },
   methods:{
     clickSmoothScroll (x) {
